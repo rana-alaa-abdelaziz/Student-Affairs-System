@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Room</title>
+<style>
+    body{
+                background: url("school-management-system.webp");
+
+background-color: rgb(173, 218, 234);
+  background-size: cover;
+  display: flex; 
+   justify-content: center;     
+    align-items: center;         
+    height: 100vh;              
+    margin: 0;    
+    }
+    #dsign{
+        width: 500px;
+        height: 400px;
+        background-color:rgb(254, 253, 253); ;
+        border-radius: 20px;
+    }
+    #dsign input[type="email"],
+#dsign input[type="password"] {
+    width: 60%;
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+margin-top: 10px;
+
+}
+#dsign form{
+    margin-top: 0px;
+    margin-left: 100px;
+    
+}
+#dsign h4{
+    padding-left: 80px;
+    margin-bottom: 3px;
+    color: rgb(9, 3, 70);
+}
+#dsign h1{
+    padding-left: 130px;
+    padding-top: 80px;
+    color: rgb(9, 3, 70);
+}
+#title {
+    position: absolute;     
+    top: 90px;             
+    left: 49%;              
+    transform: translateX(-50%);
+    font-size: 36px;
+    color: rgb(9, 3, 70);
+    
+}
+#dsign button {
+    display: block;
+margin-top: -15px;
+    margin-left: 100px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    background-color:rgb(9, 3, 70);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+#dsign .signup-text {
+    margin-top: 10px;     
+    font-size: 14px;
+    color: rgb(9, 3, 70);
+}
+#dsign .signup-text a {
+    color: #0000EE;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#dsign .signup-text a:hover {
+    text-decoration: underline;
+}
+</style>
+</head>
+
+<body>
+    <p id="title">Students Affairs Systems</p>
+<div id="dsign">
+
+    <h1>Welcome Back!</h1>
+
+    <form>
+        <input type="email" id="email" placeholder="Enter Your email">
+        <input type="password" id="password" placeholder="Enter your Password">
+        <h6 class="signup-text"> <a href="" style="color: rgb(9, 3, 70);"></a></h6>
+        <button onclick='signinCheck(event)'>Sign In</button>
+
+        
+    </form>
+
+</div>
+
+<script src="Admin.js"></script>
+
+</body>
+
+
+
+
+
+
+
+</html>

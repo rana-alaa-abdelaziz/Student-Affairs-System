@@ -1,0 +1,884 @@
+{
+  "employees": [
+    {
+      "id": "2",
+      "name": "Sara Mahmoud",
+      "email": "sara.mahmoud@univ.edu.eg",
+      "jobTitle": "Senior Registration Officer",
+      "office": "Student Services Center - Desk 3",
+      "phone": "01229876543"
+    },
+    {
+      "id": "3",
+      "name": "Mohamed Ali",
+      "email": "mohamed.ali@univ.edu.eg",
+      "jobTitle": "Admissions Specialist",
+      "office": "Building A - Ground Floor",
+      "phone": "01113456789"
+    },
+    {
+      "id": "4",
+      "name": "Nour El-Din",
+      "email": "nour.eldin@univ.edu.eg",
+      "jobTitle": "Student Counselor",
+      "office": "Building B - Room 204",
+      "phone": "01551239876"
+    },
+    {
+      "id": "5",
+      "name": "Mariam Youssef",
+      "email": "mariam.youssef@univ.edu.eg",
+      "jobTitle": "Records Coordinator",
+      "office": "Archives Dept - Basement",
+      "phone": "01098765432"
+    },
+    {
+      "id": "6",
+      "name": "Omar Khaled",
+      "email": "omar.khaled@univ.edu.eg",
+      "jobTitle": "IT Support - Student Systems",
+      "office": "IT Center - 2nd Floor",
+      "phone": "01234567890"
+    },
+    {
+      "id": "7",
+      "name": "Hana Ibrahim",
+      "email": "hana.ibrahim@univ.edu.eg",
+      "jobTitle": "Financial Aid Officer",
+      "office": "Administrative Building - Room 105",
+      "phone": "01145678901"
+    },
+    {
+      "id": "8",
+      "name": "Youssef Gerges",
+      "email": "youssef.gerges@univ.edu.eg",
+      "jobTitle": "Student Activities Coordinator",
+      "office": "Student Union Hall",
+      "phone": "01556789012"
+    },
+    {
+      "id": "9",
+      "name": "Aya Mostafa",
+      "email": "aya.mostafa@univ.edu.eg",
+      "jobTitle": "Front Desk Receptionist",
+      "office": "Main Campus Gate",
+      "phone": "01012340987"
+    },
+    {
+      "id": "10",
+      "name": "Karim Adel",
+      "email": "karim.adel@univ.edu.eg",
+      "jobTitle": "Exam Control Officer",
+      "office": "Exam Hall Control Room",
+      "phone": "01287654321"
+    },
+    {
+      "id": "11",
+      "name": "Dina Samir",
+      "email": "dina.samir@univ.edu.eg",
+      "jobTitle": "International Student Advisor",
+      "office": "Building A - Room 12",
+      "phone": "01123450987"
+    },
+    {
+      "id": "12",
+      "name": "Mina Tawfik",
+      "email": "mina.tawfik@univ.edu.eg",
+      "jobTitle": "Alumni Relations Officer",
+      "office": "Building C - 3rd Floor",
+      "phone": "01550987654"
+    },
+    {
+      "id": "13",
+      "name": "Rania Ezzat",
+      "email": "rania.ezzat@univ.edu.eg",
+      "jobTitle": "Academic Advisor",
+      "office": "Faculty of Engineering - Room 4",
+      "phone": "01065432109"
+    },
+    {
+      "id": "14",
+      "name": "Khaled Fawzy",
+      "email": "khaled.fawzy@univ.edu.eg",
+      "jobTitle": "Administrative Assistant",
+      "office": "Student Services Center - Desk 1",
+      "phone": "01254321098"
+    },
+    {
+      "id": "15",
+      "name": "Salma Hussein",
+      "email": "salma.hussein@univ.edu.eg",
+      "jobTitle": "Transfer Credit Evaluator",
+      "office": "Building B - Room 202",
+      "phone": "01165432109"
+    },
+    {
+      "id": "16",
+      "name": "Tarek Aziz",
+      "email": "tarek.aziz@univ.edu.eg",
+      "jobTitle": "Student Housing Manager",
+      "office": "Dormitory Admin Block",
+      "phone": "01554321098"
+    },
+    {
+      "id": "17",
+      "name": "Noha Soliman",
+      "email": "noha.soliman@univ.edu.eg",
+      "jobTitle": "Career Services Specialist",
+      "office": "Building C - Ground Floor",
+      "phone": "01076543210"
+    },
+    {
+      "id": "18",
+      "name": "Mahmoud Reda",
+      "email": "mahmoud.reda@univ.edu.eg",
+      "jobTitle": "Registration Clerk",
+      "office": "Student Services Center - Desk 5",
+      "phone": "01276543210"
+    },
+    {
+      "id": "19",
+      "name": "Peter Nabil",
+      "email": "peter.nabil@univ.edu.eg",
+      "jobTitle": "Sports Coordinator",
+      "office": "University Gym",
+      "phone": "01176543210"
+    },
+    {
+      "id": "20",
+      "name": "Amira Said",
+      "email": "amira.said@univ.edu.eg",
+      "jobTitle": "Graduate Studies Officer",
+      "office": "Postgraduate Building - Room 10",
+      "phone": "01557654321"
+    },
+    {
+      "id": "21",
+      "name": "Hassan Farouk",
+      "email": "hassan.farouk@univ.edu.eg",
+      "jobTitle": "Compliance Officer",
+      "office": "Administrative Building - Room 108",
+      "phone": "01087654321"
+    },
+    {
+      "id": "22",
+      "name": "Laila Othman",
+      "email": "laila.othman@univ.edu.eg",
+      "jobTitle": "Transcript Processor",
+      "office": "Archives Dept - Desk 2",
+      "phone": "01287650987"
+    },
+    {
+      "id": "23",
+      "name": "Sherif Hamdy",
+      "email": "sherif.hamdy@univ.edu.eg",
+      "jobTitle": "Scholarship Coordinator",
+      "office": "Financial Aid Office",
+      "phone": "01187654321"
+    },
+    {
+      "id": "24",
+      "name": "Mai Zakaria",
+      "email": "mai.zakaria@univ.edu.eg",
+      "jobTitle": "Student Affairs Secretary",
+      "office": "Building A - Reception",
+      "phone": "01558765432"
+    },
+    {
+      "id": "25",
+      "name": "Emad Makram",
+      "email": "emad.makram@univ.edu.eg",
+      "jobTitle": "Disability Services Officer",
+      "office": "Accessibility Center",
+      "phone": "01098761234"
+    },
+    {
+      "id": "26",
+      "name": "Reem Ashraf",
+      "email": "reem.ashraf@univ.edu.eg",
+      "jobTitle": "ID Card Specialist",
+      "office": "Security Building - Room 1",
+      "phone": "01298765432"
+    },
+    {
+      "id": "27",
+      "name": "Wael Gomaa",
+      "email": "wael.gomaa@univ.edu.eg",
+      "jobTitle": "Archive Assistant",
+      "office": "Archives Dept - Basement",
+      "phone": "01198765432"
+    },
+    {
+      "id": "28",
+      "name": "Nada Salem",
+      "email": "nada.salem@univ.edu.eg",
+      "jobTitle": "Orientation Coordinator",
+      "office": "Student Union Hall",
+      "phone": "01559876543"
+    },
+    {
+      "id": "29",
+      "name": "Hossam Badawy",
+      "email": "hossam.badawy@univ.edu.eg",
+      "jobTitle": "Data Entry Clerk",
+      "office": "Registration Office - Back Office",
+      "phone": "01011223344"
+    },
+    {
+      "id": "30",
+      "name": "Fatma El-Zahraa",
+      "email": "fatma.elzahraa@univ.edu.eg",
+      "jobTitle": "Head of Registration",
+      "office": "Student Services Center - Manager Office",
+      "phone": "01233445566"
+    }
+  ],
+  "instructors": [
+    {
+      "id": "1",
+      "name": "Prof. Ahmed Zaki",
+      "email": "ahmed.zaki@univ.edu.eg",
+      "department": "Computer Science",
+      "courses": [
+        "Data Structures",
+        "Algorithms"
+      ],
+      "phone": "01001122334"
+    },
+    {
+      "id": "2",
+      "name": "Dr. Mona El-Sayed",
+      "email": "mona.elsayed@univ.edu.eg",
+      "department": "Information Systems",
+      "courses": [
+        "Database Systems I",
+        "Advanced SQL"
+      ],
+      "phone": "01223344556"
+    },
+    {
+      "id": "3",
+      "name": "Dr. Yasser Fathy",
+      "email": "yasser.fathy@univ.edu.eg",
+      "department": "Electronics",
+      "courses": [
+        "Digital Logic Design",
+        "Microprocessors"
+      ],
+      "phone": "01112233445"
+    },
+    {
+      "id": "4",
+      "name": "Eng. Sarah Nabil",
+      "email": "sarah.nabil@univ.edu.eg",
+      "department": "Computer Science",
+      "courses": [
+        "Introduction to Programming",
+        "Web Development"
+      ],
+      "phone": "01551122334"
+    },
+    {
+      "id": "5",
+      "name": "Prof. Mohamed Ibrahim",
+      "email": "m.ibrahim@univ.edu.eg",
+      "department": "Communications",
+      "courses": [
+        "Signals and Systems",
+        "Digital Signal Processing",
+        "Antennas"
+      ],
+      "phone": "01099887766"
+    },
+    {
+      "id": "6",
+      "name": "Dr. Rania Youssef",
+      "email": "rania.youssef@univ.edu.eg",
+      "department": "Information Systems",
+      "courses": [
+        "Software Engineering",
+        "System Analysis"
+      ],
+      "phone": "01288776655"
+    },
+    {
+      "id": "7",
+      "name": "Dr. Karim Samy",
+      "email": "karim.samy@univ.edu.eg",
+      "department": "Computer Science",
+      "courses": [
+        "Artificial Intelligence",
+        "Machine Learning"
+      ],
+      "phone": "01177665544"
+    },
+    {
+      "id": "8",
+      "name": "Eng. Omar Khaled",
+      "email": "omar.khaled@univ.edu.eg",
+      "department": "Electronics",
+      "courses": [
+        "Electronic Circuits I"
+      ],
+      "phone": "01556655443"
+    },
+    {
+      "id": "9",
+      "name": "Prof. Hoda Amin",
+      "email": "hoda.amin@univ.edu.eg",
+      "department": "Computer Science",
+      "courses": [
+        "Operating Systems",
+        "Distributed Systems",
+        "Cloud Computing"
+      ],
+      "phone": "01055443322"
+    },
+    {
+      "id": "10",
+      "name": "Dr. Tarek Abdelrahman",
+      "email": "tarek.abdelrahman@univ.edu.eg",
+      "department": "Communications",
+      "courses": [
+        "Wireless Communications",
+        "Satellite Systems"
+      ],
+      "phone": "01244332211"
+    },
+    {
+      "id": "11",
+      "name": "Dr. Noha Soliman",
+      "email": "noha.soliman@univ.edu.eg",
+      "department": "Information Systems",
+      "courses": [
+        "Data Mining",
+        "Big Data Analytics"
+      ],
+      "phone": "01133221100"
+    },
+    {
+      "id": "12",
+      "name": "Eng. Mahmoud Reda",
+      "email": "mahmoud.reda@univ.edu.eg",
+      "department": "Electronics",
+      "courses": [
+        "Embedded Systems Lab",
+        "Robotics"
+      ],
+      "phone": "01552211009"
+    },
+    {
+      "id": "13",
+      "name": "Dr. Peter Girgis",
+      "email": "peter.girgis@univ.edu.eg",
+      "department": "Computer Science",
+      "courses": [
+        "Computer Graphics",
+        "Human-Computer Interaction"
+      ],
+      "phone": "01012345678"
+    },
+    {
+      "id": "14",
+      "name": "Prof. Samia Hassan",
+      "email": "samia.hassan@univ.edu.eg",
+      "department": "Information Systems",
+      "courses": [
+        "Information Security",
+        "Cybersecurity Fundamentals"
+      ],
+      "phone": "01298765432"
+    },
+    {
+      "id": "15",
+      "name": "Dr. Hazem Emam",
+      "email": "hazem.emam@univ.edu.eg",
+      "department": "Communications",
+      "courses": [
+        "Optical Fibers",
+        "Microwave Engineering"
+      ],
+      "phone": "01156789012"
+    },
+    {
+      "id": "16",
+      "name": "Dr. Amira Farouk",
+      "email": "amira.farouk@univ.edu.eg",
+      "department": "Electronics",
+      "courses": [
+        "VLSI Design",
+        "Solid State Electronics"
+      ],
+      "phone": "01559876543"
+    },
+    {
+      "id": "17",
+      "name": "Eng. Mostafa Kamel",
+      "email": "mostafa.kamel@univ.edu.eg",
+      "department": "Computer Science",
+      "courses": [
+        "Object-Oriented Programming"
+      ],
+      "phone": "01065432109"
+    },
+    {
+      "id": "18",
+      "name": "Prof. Essam El-Din",
+      "email": "essam.eldin@univ.edu.eg",
+      "department": "Computer Science",
+      "courses": [
+        "Compiler Design",
+        "Theory of Computation",
+        "Automata"
+      ],
+      "phone": "01234567890"
+    },
+    {
+      "id": "19",
+      "name": "Dr. Nesreen Wagdy",
+      "email": "nesreen.wagdy@univ.edu.eg",
+      "department": "Information Systems",
+      "courses": [
+        "E-Commerce",
+        "IT Project Management"
+      ],
+      "phone": "01123456789"
+    },
+    {
+      "id": "20",
+      "name": "Dr. Walid Salem",
+      "email": "walid.salem@univ.edu.eg",
+      "department": "Communications",
+      "courses": [
+        "Communication Networks",
+        "Internet of Things"
+      ],
+      "phone": "01556789123"
+    },
+    {
+      "id": "21",
+      "name": "Eng. Mariam Ezzat",
+      "email": "mariam.ezzat@univ.edu.eg",
+      "department": "Information Systems",
+      "courses": [
+        "Management Information Systems"
+      ],
+      "phone": "01087654321"
+    },
+    {
+      "id": "22",
+      "name": "Prof. Hassan Ali",
+      "email": "hassan.ali@univ.edu.eg",
+      "department": "Electronics",
+      "courses": [
+        "Analog Integrated Circuits",
+        "Power Electronics"
+      ],
+      "phone": "01211223344"
+    },
+    {
+      "id": "23",
+      "name": "Dr. Dina Fouad",
+      "email": "dina.fouad@univ.edu.eg",
+      "department": "Computer Science",
+      "courses": [
+        "Mobile Application Development",
+        "User Experience Design"
+      ],
+      "phone": "01199887766"
+    },
+    {
+      "id": "24",
+      "name": "Dr. Sherif Maged",
+      "email": "sherif.maged@univ.edu.eg",
+      "department": "Communications",
+      "courses": [
+        "Mobile Communications",
+        "Information Theory"
+      ],
+      "phone": "01554433221"
+    },
+    {
+      "id": "25",
+      "name": "Eng. Khaled Said",
+      "email": "khaled.said@univ.edu.eg",
+      "department": "Computer Science",
+      "courses": [
+        "Computer Architecture"
+      ],
+      "phone": "01033445566"
+    },
+    {
+      "id": "26",
+      "name": "Dr. Fatma Zahran",
+      "email": "fatma.zahran@univ.edu.eg",
+      "department": "Information Systems",
+      "courses": [
+        "Business Intelligence",
+        "Decision Support Systems"
+      ],
+      "phone": "01277665544"
+    },
+    {
+      "id": "27",
+      "name": "Dr. Sameh Makram",
+      "email": "sameh.makram@univ.edu.eg",
+      "department": "Electronics",
+      "courses": [
+        "Control Systems",
+        "Industrial Automation"
+      ],
+      "phone": "01188776655"
+    },
+    {
+      "id": "28",
+      "name": "Prof. Ayman Rizk",
+      "email": "ayman.rizk@univ.edu.eg",
+      "department": "Computer Science",
+      "courses": [
+        "Computer Networks",
+        "Network Security"
+      ],
+      "phone": "01551230987"
+    },
+    {
+      "id": "29",
+      "name": "Dr. Heba Tawfik",
+      "email": "heba.tawfik@univ.edu.eg",
+      "department": "Information Systems",
+      "courses": [
+        "Enterprise Resource Planning (ERP)",
+        "Supply Chain Management"
+      ],
+      "phone": "01022334455"
+    },
+    {
+      "id": "30",
+      "name": "Eng. Bassem Youssef",
+      "email": "bassem.youssef@univ.edu.eg",
+      "department": "Communications",
+      "courses": [
+        "Digital Communications Lab"
+      ],
+      "phone": "01255667788"
+    }
+  ],
+  "students": [
+    {
+      "id": "9",
+      "name": "Tamer Ibrahim",
+      "phone": "01133221100",
+      "course": "Signals and Systems",
+      "instructorName": "Prof. Mohamed Ibrahim"
+    },
+    {
+      "id": "10",
+      "name": "Dina Khalil",
+      "phone": "01012345678",
+      "course": "Digital Signal Processing",
+      "instructorName": "Prof. Mohamed Ibrahim"
+    },
+    {
+      "id": "12",
+      "name": "Nadia Samy",
+      "phone": "01177665544",
+      "course": "Machine Learning",
+      "instructorName": "Dr. Karim Samy"
+    },
+    {
+      "id": "13",
+      "name": "Ahmed Mostafa",
+      "phone": "01087654321",
+      "course": "Operating Systems",
+      "instructorName": "Prof. Hoda Amin"
+    },
+    {
+      "id": "14",
+      "name": "Fatma Hossam",
+      "phone": "01556789123",
+      "course": "Distributed Systems",
+      "instructorName": "Prof. Hoda Amin"
+    },
+    {
+      "id": "15",
+      "name": "Mohamed Tarek",
+      "phone": "01211223344",
+      "course": "Cloud Computing",
+      "instructorName": "Prof. Hoda Amin"
+    },
+    {
+      "id": "16",
+      "name": "Salma Hany",
+      "phone": "01033445566",
+      "course": "Computer Graphics",
+      "instructorName": "Dr. Peter Girgis"
+    },
+    {
+      "id": "17",
+      "name": "Mahmoud Adel",
+      "phone": "01255667788",
+      "course": "Human-Computer Interaction",
+      "instructorName": "Dr. Peter Girgis"
+    },
+    {
+      "id": "18",
+      "name": "Nada Fawzy",
+      "phone": "01199887766",
+      "course": "Information Security",
+      "instructorName": "Prof. Samia Hassan"
+    },
+    {
+      "id": "20",
+      "name": "Reem Tamer",
+      "phone": "01156789012",
+      "course": "Optical Fibers",
+      "instructorName": "Dr. Hazem Emam"
+    },
+    {
+      "id": "21",
+      "name": "Khaled Osama",
+      "phone": "01277665544",
+      "course": "Microwave Engineering",
+      "instructorName": "Dr. Hazem Emam"
+    },
+    {
+      "id": "22",
+      "name": "Sara Amira",
+      "phone": "01559876543",
+      "course": "VLSI Design",
+      "instructorName": "Dr. Amira Farouk"
+    },
+    {
+      "id": "23",
+      "name": "Omar Hossam",
+      "phone": "01065432109",
+      "course": "Solid State Electronics",
+      "instructorName": "Dr. Amira Farouk"
+    },
+    {
+      "id": "24",
+      "name": "Mariam Mostafa",
+      "phone": "01234567890",
+      "course": "Object-Oriented Programming",
+      "instructorName": "Eng. Mostafa Kamel"
+    },
+    {
+      "id": "27",
+      "name": "Lamia Mohamed",
+      "phone": "01133445566",
+      "course": "Automata",
+      "instructorName": "Prof. Essam El-Din"
+    },
+    {
+      "id": "28",
+      "name": "Heba Nader",
+      "phone": "01099887766",
+      "course": "Mobile Application Development",
+      "instructorName": "Dr. Dina Fouad"
+    },
+    {
+      "id": "29",
+      "name": "Mostafa Sherif",
+      "phone": "01211223344",
+      "course": "User Experience Design",
+      "instructorName": "Dr. Dina Fouad"
+    },
+    {
+      "id": "25",
+      "name": "Rana",
+      "phone": "0102237",
+      "course": "database",
+      "instructorName": "DR:sohaila"
+    },
+    {
+      "id": "27",
+      "name": "Rana",
+      "phone": "0102237",
+      "course": "database",
+      "instructorName": "DR:sohaila"
+    },
+    {
+      "id": "25",
+      "name": "Rana",
+      "phone": "0102237",
+      "course": "database",
+      "instructorName": "DR:sohaila"
+    }
+  ],
+  "courses": [
+    {
+      "course_id": 2,
+      "course_name": "Algorithms",
+      "instructor": "Prof. Ahmed Zaki",
+      "id": "2d91"
+    },
+    {
+      "course_id": 3,
+      "course_name": "Database Systems I",
+      "instructor": "Dr. Mona El-Sayed",
+      "id": "517f"
+    },
+    {
+      "course_id": 4,
+      "course_name": "Advanced SQL",
+      "instructor": "Dr. Mona El-Sayed",
+      "id": "075b"
+    },
+    {
+      "course_id": 5,
+      "course_name": "Digital Logic Design",
+      "instructor": "Dr. Yasser Fathy",
+      "id": "7076"
+    },
+    {
+      "course_id": 6,
+      "course_name": "Microprocessors",
+      "instructor": "Dr. Yasser Fathy",
+      "id": "f341"
+    },
+    {
+      "course_id": 7,
+      "course_name": "Introduction to Programming",
+      "instructor": "Eng. Sarah Nabil",
+      "id": "db79"
+    },
+    {
+      "course_id": 8,
+      "course_name": "Web Development",
+      "instructor": "Eng. Sarah Nabil",
+      "id": "4300"
+    },
+    {
+      "course_id": 9,
+      "course_name": "Signals and Systems",
+      "instructor": "Prof. Mohamed Ibrahim",
+      "id": "79bb"
+    },
+    {
+      "course_id": 10,
+      "course_name": "Digital Signal Processing",
+      "instructor": "Prof. Mohamed Ibrahim",
+      "id": "3964"
+    },
+    {
+      "course_id": 11,
+      "course_name": "Artificial Intelligence",
+      "instructor": "Dr. Karim Samy",
+      "id": "2dbd"
+    },
+    {
+      "course_id": 12,
+      "course_name": "Machine Learning",
+      "instructor": "Dr. Karim Samy",
+      "id": "17c8"
+    },
+    {
+      "course_id": 13,
+      "course_name": "Operating Systems",
+      "instructor": "Prof. Hoda Amin",
+      "id": "79aa"
+    },
+    {
+      "course_id": 14,
+      "course_name": "Distributed Systems",
+      "instructor": "Prof. Hoda Amin",
+      "id": "a300"
+    },
+    {
+      "course_id": 15,
+      "course_name": "Cloud Computing",
+      "instructor": "Prof. Hoda Amin",
+      "id": "b57d"
+    },
+    {
+      "course_id": 16,
+      "course_name": "Computer Graphics",
+      "instructor": "Dr. Peter Girgis",
+      "id": "a0ff"
+    },
+    {
+      "course_id": 17,
+      "course_name": "Human-Computer Interaction",
+      "instructor": "Dr. Peter Girgis",
+      "id": "18d1"
+    },
+    {
+      "course_id": 18,
+      "course_name": "Information Security",
+      "instructor": "Prof. Samia Hassan",
+      "id": "1589"
+    },
+    {
+      "course_id": 19,
+      "course_name": "Cybersecurity Fundamentals",
+      "instructor": "Prof. Samia Hassan",
+      "id": "ddb4"
+    },
+    {
+      "course_id": 20,
+      "course_name": "Optical Fibers",
+      "instructor": "Dr. Hazem Emam",
+      "id": "e688"
+    },
+    {
+      "course_id": 21,
+      "course_name": "Microwave Engineering",
+      "instructor": "Dr. Hazem Emam",
+      "id": "7351"
+    },
+    {
+      "course_id": 22,
+      "course_name": "VLSI Design",
+      "instructor": "Dr. Amira Farouk",
+      "id": "40e6"
+    },
+    {
+      "course_id": 23,
+      "course_name": "Solid State Electronics",
+      "instructor": "Dr. Amira Farouk",
+      "id": "c8cd"
+    },
+    {
+      "course_id": 24,
+      "course_name": "Object-Oriented Programming",
+      "instructor": "Eng. Mostafa Kamel",
+      "id": "9534"
+    },
+    {
+      "course_id": 25,
+      "course_name": "Compiler Design",
+      "instructor": "Prof. Essam El-Din",
+      "id": "8f2e"
+    },
+    {
+      "course_id": 26,
+      "course_name": "Theory of Computation",
+      "instructor": "Prof. Essam El-Din",
+      "id": "f9e8"
+    },
+    {
+      "course_id": 27,
+      "course_name": "Automata",
+      "instructor": "Prof. Essam El-Din",
+      "id": "d871"
+    },
+    {
+      "course_id": 28,
+      "course_name": "Mobile Application Development",
+      "instructor": "Dr. Dina Fouad",
+      "id": "18f5"
+    },
+    {
+      "course_id": 29,
+      "course_name": "User Experience Design",
+      "instructor": "Dr. Dina Fouad",
+      "id": "7f3a"
+    },
+    {
+      "course_id": 30,
+      "course_name": "Information Theory",
+      "instructor": "Dr. Sherif Maged",
+      "id": "090c"
+    }
+  ]
+}

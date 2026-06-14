@@ -1,0 +1,60 @@
+// import { api } from "../services/api.js";
+// import { Student } from "../models/Student.js";
+
+// // Load and display all students
+// async function loadStudents() {
+//     const data = await api.get("students");           // fetch raw JSON
+//     const students = data.map(
+//         s => new Student(s.id, s.name, s.age, s.courseId) // convert to Student objects
+//     );
+
+//     console.log(students); // now each is a Student instance
+//     renderTable(students); // pass to table component (optional)
+// }
+
+// // Add a new student
+// async function addStudent(name, age, courseId) {
+//     const studentData = { name, age, courseId };
+//     const added = await api.post("students", studentData);
+//     const student = new Student(added.id, added.name, added.age, added.courseId);
+//     console.log("Added:", student);
+//     loadStudents(); // refresh table
+// }
+
+// // Edit a student
+// async function editStudent(id, updatedData) {
+//     const updated = await api.put(`students/${id}`, updatedData);
+//     const student = new Student(updated.id, updated.name, updated.age, updated.courseId);
+//     console.log("Updated:", student);
+//     loadStudents(); // refresh table
+// }
+
+// // Delete a student
+// async function deleteStudent(id) {
+//     await api.delete(`students/${id}`);
+//     console.log("Deleted student", id);
+//     loadStudents(); // refresh table
+// }
+
+// // Optional: render students to table (simple example)
+// function renderTable(students) {
+//     const table = document.getElementById("studentsTable");
+//     if (!table) return;
+
+//     table.innerHTML = `
+//         <tr>
+//             <th>ID</th><th>Name</th><th>Age</th><th>Course ID</th>
+//         </tr>
+//         ${students.map(s => `
+//             <tr>
+//                 <td>${s.id}</td>
+//                 <td>${s.name}</td>
+//                 <td>${s.age}</td>
+//                 <td>${s.courseId}</td>
+//             </tr>
+//         `).join('')}
+//     `;
+// }
+
+// // Initial load
+// loadStudents();

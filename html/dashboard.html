@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+        body{
+                background: url("school-management-system.webp");
+
+background-color: rgb(173, 218, 234);
+  background-size: cover;
+  display: flex; 
+   justify-content: center;     
+    align-items: center;         
+    height: 100vh;              
+    margin: 0;    
+    }
+    #dashboard{
+        width: 1100px;
+       height: 500px;
+        background-color:rgb(254, 253, 253); ;
+        border-radius: 20px;
+  position: relative;
+    }
+       .sidebar {
+
+        position: absolute;
+        left: 60px;
+        top: 10;
+        width: 220px;
+        height:79%;
+        background-color: rgb(9, 3, 70);
+        color: white;
+        padding-top: 20px;
+        border-top-left-radius:20px ;
+        border-bottom-left-radius: 20px;
+        z-index: 1;
+            
+
+    }
+    .sidebar h2 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .sidebar button {
+        display: block;
+        width: 90%;
+        margin: 10px auto;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background: #3e4f75;
+        color: white;
+        cursor: pointer;
+        text-align: left;
+    }
+    .sidebar h4{
+        padding-left: 30px;
+    }
+#functions {
+    background-color:  #a7c7e7;
+    width: 820px;
+    height: 50px;
+    margin-left: 240px; 
+    margin-top: 20px;   
+    border-radius: 5px;
+
+    display: flex;             
+    align-items: center;       
+    padding: 0 15px;           
+    gap: 15px;                 
+}
+#functions input[type="search"] {
+    width: 200px;              
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.sort-container {
+    background-color: white;    
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;              
+    align-items: center;
+    gap: 10px;
+}
+
+#functions input[type="search"],
+.sort-container select {
+    height: 25px;            
+}
+.sort-container select {
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.add-btn-style {
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(9, 3, 70);
+    color: white;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-right: 0;
+    width: 150px; 
+    height: 30px;
+}
+#studentsDiv ,#instructorsDiv,#employeesDiv{
+        background-color:  #a7c7e7;
+    width: 820px;
+    /* height: 50px; */
+    margin-left: 240px; 
+    margin-top: 20px;   
+    border-radius: 5px;
+
+    display: flex;   
+    flex-direction: column;          
+    align-items: center;       
+    padding: 15px;           
+    gap: 15px;  
+}
+
+#studentsDiv table ,#instructorsDiv table,#employeesDiv table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#studentsDiv th, #studentsDiv td,#instructorsDiv th, #instructorsDiv td,#employeesDiv th,
+#employeesDiv td{
+    padding: 8px;
+    text-align: center;
+}
+
+#studentsDiv th {
+    background-color: #a7c7e7;
+}
+
+#studentsTable button{
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(9, 3, 70);
+    color: white;
+    cursor: pointer;
+    margin-left: auto;
+    width: 50px;
+    height: 20px;
+}
+#addModal button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(9, 3, 70);
+    color: white;
+    cursor: pointer;
+}
+
+#closeEditBtn,#closeAddBtn {
+    background-color: rgb(9, 3, 70) ;
+    margin-left: 10px;
+        padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+#saveEditBtn, #confirmAddBtn,#confirmAddCourseBtn,#closeAddCourseBtn,#saveEditCourseBtn,#closeEditCourseBtn,
+#saveEditinstBtn,#closeEditinstBtn ,#confirmAddinstBtn,#closeAddinstBtn,
+#saveEditEmpBtn,#closeEditEmpBtn,#confirmAddEmpBtn ,#closeAddEmpBtn{
+    background-color: rgb(9, 3, 70);
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#coursesDiv {
+        background-color:  #a7c7e7;
+    width: 820px;
+    margin-left: 240px; 
+    margin-top: 20px;   
+    border-radius: 5px;
+    display: flex;   
+    flex-direction: column;          
+    align-items: center;       
+    padding: 15px;           
+    gap: 5px;  
+}
+
+#prevPage, #nextPage, #pageInfo, 
+#coursePrevPage, #courseNextPage, #coursePageInfo ,
+#EmpPrevPage,#EmpPageInfo,#EmpNextPage{
+    align-self: flex-start;
+}
+
+#coursesDiv table {
+    width: 100%;
+    padding-top: -20px;
+    /* border-collapse: collapse; */
+}
+
+#coursesDiv th, #coursesDiv td {
+    padding: 8px;
+    text-align: center;
+}
+
+#coursesDiv th {
+    background-color: #a7c7e7;
+}
+
+#coursesTable button ,#instructorsTable button,#employeesTable button{
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(9, 3, 70);
+    color: white;
+    cursor: pointer;
+    margin-left: auto;
+    width: 50px;
+    height: 20px;
+}
+#addStudentBtn,#addCourseBtn,#addinstBtn,#addempBtn{
+margin-left:80%;
+}
+.pagination-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%; 
+    justify-content: flex-start;
+    margin-left: 80%;
+}
+#studentsTable td:last-child,
+#coursesTable td:last-child,
+#instructorsTable td:last-child,
+#employeesTable td:last-child {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+/* #addInstBtn {
+    align-self: flex-end; 
+    margin-left: 0;
+} */
+</style>
+</head>
+<body>
+    <div class="sidebar">
+    <h4 >Student Affairs Systems</h4>
+    <button class="active" id="studentsBtn">Students</button>
+    <button id="coursesBtn" onclick="">Courses</button>
+    <button id="instructorsBtn">Instructors</button>
+    <button id="employeesBtn">Employees</button>
+</div>
+    <div id="dashboard">
+<div id="functions">
+    <input type="search" placeholder="Search..." id="searchInput">
+
+    <div class="sort-container">
+        <label for="sortSelect">Sort by:</label>
+        <select id="sortSelect">
+            <option value="name_asc">Name ↑</option>
+            <option value="name_desc">Name ↓</option>
+            <option value="age_asc">id ↑</option>
+            <option value="age_desc">id ↓</option>
+        </select>
+    </div>
+
+    <!-- <button id="addBtn">Add new Actor</button> -->
+</div>
+
+    <div id="studentsDiv">
+        <button id="addStudentBtn" class="add-btn-style">Add New Student</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th><th>Name</th><th>Phone</th><th>course</th><th>Instructor</th><th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="studentsTable">
+            </tbody>
+        </table>
+    <div class="pagination-wrapper">  
+    <button id="prevPage">←</button>
+    <span id="pageInfo"></span>
+    <button id="nextPage">→</button>
+    </div>  
+    </div>
+    <div id="editModal" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%);
+     background:white; padding:20px; border-radius:10px; box-shadow:0 0 10px #000;">
+    <h3>Edit Student</h3>
+    <input type="text" id="editName" placeholder="Name"><br><br>
+    <input type="text" id="editPhone" placeholder="Phone"><br><br>
+    <input type="text" id="editCourse" placeholder="Course"><br><br>
+    <input type="text" id="editInstructor" placeholder="Instructor"><br><br>
+    <button id="saveEditBtn">Save</button>
+    <button id="closeEditBtn">Cancel</button>
+</div>
+<div id="addModal" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%);
+     background:white; padding:20px; border-radius:10px; box-shadow:0 0 10px #000; z-index:1000;">
+    <h3>Add New Student</h3>
+    <input type="text" id="addId" placeholder="ID"><br><br>
+    <input type="text" id="addName" placeholder="Name"><br><br>
+    <input type="text" id="addPhone" placeholder="Phone"><br><br>
+    <input type="text" id="addCourse" placeholder="Course"><br><br>
+    <input type="text" id="addInstructor" placeholder="Instructor"><br><br>
+    <button id="confirmAddBtn">Add Student</button>
+    <button id="closeAddBtn">Cancel</button>
+</div>
+
+    
+    <div id="coursesDiv" style="display:none;">
+        <button id="addCourseBtn" class="add-btn-style">Add New Course</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>Course_ID</th><th>Course_Name</th><th>Instructor</th><th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="coursesTable">
+            </tbody>
+        </table>
+            <div class="pagination-wrapper">   
+            <button id="coursePrevPage">←</button>
+    <span id="coursePageInfo"></span>
+    <button id="courseNextPage">→</button>
+            </div>
+    </div>
+    <div id="editCourseModal" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%);
+     background:white; padding:20px; border-radius:10px; box-shadow:0 0 10px #000;">
+    <h3>Edit Course</h3>
+    <input type="text" id="editCourseId" placeholder="Id"><br><br>
+    <input type="text" id="editCourseName" placeholder="Course Name"><br><br>
+    <input type="text" id="editCourseInstructor" placeholder="Instructor"><br><br>
+    <button id="saveEditCourseBtn">Save</button>
+    <button id="closeEditCourseBtn">Cancel</button>
+</div>
+<div id="addCourseModal" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%);
+     background:white; padding:20px; border-radius:10px; box-shadow:0 0 10px #000; z-index:1000;">
+    <h3>Add New Course</h3>
+    <input type="text" id="addCourseId" placeholder="Id"><br><br>
+    <input type="text" id="addCourseName" placeholder="Course Name"><br><br>
+    <input type="text" id="addCourseInstructor" placeholder="Instructor"><br><br>
+    <button id="confirmAddCourseBtn">Add Course</button>
+    <button id="closeAddCourseBtn">Cancel</button>
+</div>
+
+    
+<!--!                 -->
+    <div id="instructorsDiv" style="display:none;">
+        <button id="addInstBtn" class="add-btn-style">Add New Instructor</button>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th><th>Name</th><th>Department</th><th>Email</th><th>Course</th><th>Phone</th><th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="instructorsTable"></tbody>
+        </table>
+<!--!                 -->
+     <div class="pagination-wrapper">   
+            <button id="instPrevPage">←</button>
+    <span id="instPageInfo"></span>
+    <button id="instNextPage">→</button>
+            </div>
+    </div>
+    <!--!         -->
+    <div id="editinstModal" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%);
+     background:white; padding:20px; border-radius:10px; box-shadow:0 0 10px #000;">
+    <h3>Edit Course</h3>
+    <input type="text" id="editinstId" placeholder="Id"><br><br>
+    <input type="text" id="editinstName" placeholder="Course Name"><br><br>
+    <input type="text" id="editinstemail" placeholder="email"><br><br> 
+   <input type="text" id="editinstdepartment" placeholder="department"><br><br>
+     <input type="text" id="editinstcourses" placeholder="courses"><br><br>
+    <input type="text" id="editinstphone" placeholder="phone"><br><br>
+
+    <button id="saveEditinstBtn">Save</button>
+    <button id="closeEditinstBtn">Cancel</button>
+</div>
+
+    <!--!                 -->
+
+<div id="addinstModal" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%);
+     background:white; padding:20px; border-radius:10px; box-shadow:0 0 10px #000; z-index:1000;">
+    <h3>Add New Course</h3>
+    <input type="text" id="addinstId" placeholder="Id"><br><br>
+    <input type="text" id="addinstName" placeholder="Course Name"><br><br>
+    <input type="text" id="addinstemail" placeholder="email"><br><br> 
+   <input type="text" id="addinstdepartment" placeholder="department"><br><br>
+     <input type="text" id="addinstcourses" placeholder="courses"><br><br>
+    <input type="text" id="addinstphone" placeholder="phone"><br><br>
+    <button id="confirmAddinstBtn">Add Instructor</button>
+    <button id="closeAddinstBtn">Cancel</button>
+</div>
+
+    <div id="employeesDiv" style="display:none;">
+        <button id="addEmpBtn" class="add-btn-style">Add New Employee</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th><th>Name</th><th>email</th><th>jobTitle</th><th>office</th><th>phone</th><th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="employeesTable"></tbody>
+        </table>
+             <div class="pagination-wrapper">   
+            <button id="EmpPrevPage">←</button>
+    <span id="EmpPageInfo"></span>
+    <button id="EmpNextPage">→</button>
+            </div>
+    </div>
+    <div id="editEmpModal" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%);
+     background:white; padding:20px; border-radius:10px; box-shadow:0 0 10px #000;">
+    <h3>Edit Course</h3>
+    <input type="text" id="editEmpId" placeholder="Id"><br><br>
+    <input type="text" id="editEmpName" placeholder="Employee Name"><br><br>
+    <input type="text" id="editEmpemail" placeholder="email"><br><br> 
+   <input type="text" id="editEmpjobTittle" placeholder="job tittle"><br><br>
+     <input type="text" id="editEmpoffice" placeholder="Office"><br><br>
+    <input type="text" id="editEmpphone" placeholder="phone"><br><br>
+
+    <button id="saveEditEmpBtn">Save</button>
+    <button id="closeEditEmptBtn">Cancel</button>
+</div>
+<div id="addEmpModal" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%);
+     background:white; padding:20px; border-radius:10px; box-shadow:0 0 10px #000; z-index:1000;">
+    <h3>Add New Course</h3>
+    <input type="text" id="addEmpId" placeholder="Id"><br><br>
+    <input type="text" id="addEmpName" placeholder="Employee Name"><br><br>
+    <input type="text" id="addEmpemail" placeholder="email"><br><br> 
+   <input type="text" id="addEmpJob" placeholder="job tittle"><br><br>
+     <input type="text" id="addEmpoffice" placeholder="Office"><br><br>
+    <input type="text" id="addEmpphone" placeholder="phone"><br><br>
+    <button id="confirmAddEmpBtn">Add Employee</button>
+    <button id="closeAddEmpBtn">Cancel</button>
+</div>
+
+    </div>
+
+    </div>
+
+<script type="module">
+    const sections = {
+        studentsBtn: { div: 'studentsDiv', module: '../js/pages/students.js', func: 'loadStudent' },
+        coursesBtn: { div: 'coursesDiv', module: '../js/pages/courses.js', func: 'loadCourse' },
+        instructorsBtn: { div: 'instructorsDiv', module: '../js/pages/instructor.js', func: 'loadinstructor' },
+        employeesBtn: { div: 'employeesDiv', module: '../js/pages/employee.js', func: 'loadEmployee' },
+    };
+    Object.keys(sections).forEach(btnId=>{
+        document.getElementById(btnId).addEventListener('click',async()=>{
+            Object.values(sections).forEach(s=>document.getElementById(s.div).style.display='none');
+                        const section = sections[btnId];
+            document.getElementById(section.div).style.display = 'flex';
+                        try {
+                const mod = await import(section.module);
+                if (mod[section.func]) mod[section.func](); 
+            } catch (err) {
+                console.error(`Failed to load ${section.module}`, err);
+            }
+        })
+    })
+
+
+
+</script>
+<script type="module" src="../js/pages/students.js"></script>
+<script type="module" src="../js/pages/courses.js"></script>
+<script type="module" src="../js/pages/instructor.js"></script>
+<script type="module" src="../js/pages/employee.js"></script>
+
+</body>
+</html>
